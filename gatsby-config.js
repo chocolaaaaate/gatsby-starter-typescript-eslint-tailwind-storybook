@@ -5,8 +5,8 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Sumedh Kanade`,
-    description: `Sumedh Kanade portfolio`,
+    title: `Gatsby Starter with TypeScript, ESLint, Tailwind CSS, Storybook`,
+    description: `Gatsby Starter with TypeScript, ESLint, Tailwind CSS, Storybook`,
     author: `Sumedh Kanade`,
   },
   plugins: [

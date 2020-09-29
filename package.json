@@ -1,7 +1,7 @@
 {
-  "name": "sk-portfolio",
-  "description": "Sumedh's Portfolio",
-  "version": "4.0.0",
+  "name": "gatsby-starter-typescript-eslint-tailwind-storybook",
+  "description": "Gatsby Starter with TypeScript, ESLint, Tailwind CSS, Storybook",
+  "version": "1.0.0",
   "author": "Sumedh Kanade",
   "dependencies": {
     "gatsby": "2.24.65",
