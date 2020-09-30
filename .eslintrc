@@ -4,7 +4,6 @@
     "browser": true,
     "node": true
   },
-  // https://github.com/babel/babel-eslint
   "parser": "@typescript-eslint/parser",
   "rules": {
     // https://eslint.org/docs/2.0.0/rules/strict
@@ -12,12 +11,9 @@
     // Disable prop-types as we use TypeScript for type checking
     "react/prop-types": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
-    // Enable prettier rules
     "prettier/prettier": "off",
-    // allow "any" as type
-    // "@typescript-eslint/no-explicit-any": "off",
-    // allow @ts-ignore for testing purposes
-    "@typescript-eslint/ban-ts-ignore": "off",
+    // allow @ts-ignore if you need
+    "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off"
   },
   "settings": {
@@ -32,14 +28,9 @@
   },
   "plugins": ["@typescript-eslint", "react", "prettier"],
   "extends": [
-    // https://eslint.org/docs/rules/
     "eslint:recommended",
-    // https://github.com/yannickcr/eslint-plugin-react#recommended
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    // "prettier/@typescript-eslint",
-    // "plugin:prettier/recommended",
-    // https://github.com/benmosher/eslint-plugin-import
     "plugin:import/recommended"
   ]
 }
